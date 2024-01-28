@@ -4,7 +4,7 @@ import { blogDataType} from "./Blogs";
 import { useEffect, useState } from "react";
 import  Axios, { AxiosResponse }  from 'axios';
 import { base } from '../BaseURL';
-import { marked } from 'marked';
+import { marked } from 'markred';
 
 const BlogPage:React.FC = () => {
     
